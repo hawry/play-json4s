@@ -15,7 +15,7 @@
  */
 package com.github.tototoshi.play2.json4s.test.core
 
-import akka.util.Timeout
+import org.apache.pekko.util.Timeout
 import org.json4s._
 import play.api.mvc.{Request, Result}
 import play.api.test._

@@ -8,8 +8,8 @@ val json4sNative = "org.json4s" %% "json4s-native" % _json4sVersion
 val json4sJackson = "org.json4s" %% "json4s-jackson" % _json4sVersion
 val scalatest = "org.scalatest" %% "scalatest" % _scalatestVersion
 
-val playApi = "com.typesafe.play" %% "play" % _playVersion
-val playTest = "com.typesafe.play" %% "play-test" % _playVersion
+val playApi = "org.playframework" %% "play" % _playVersion
+val playTest = "org.playframework" %% "play-test" % _playVersion
 
 val playDependencies = Seq(playApi % Provided, playTest % Test)
 
@@ -29,7 +29,7 @@ val nonPublishSettings = Seq(
 val baseSettings = Seq(
   organization := "com.github.tototoshi",
   version := _version,
-  scalaVersion := "2.12.17",
+  scalaVersion := "2.13.12",
   crossScalaVersions := Seq(scalaVersion.value, "2.13.10"),
   scalacOptions ++= Seq("-feature", "-deprecation"),
   resolvers += "typesafe" at "https://repo.typesafe.com/typesafe/releases",

@@ -16,8 +16,8 @@
 
 package com.github.tototoshi.play2.json4s.core
 
-import akka.stream.Materializer
-import akka.util.ByteString
+import org.apache.pekko.stream.Materializer
+import org.apache.pekko.util.ByteString
 import com.github.tototoshi.play2.json4s.{Json4s, Json4sImplicits}
 import org.json4s.{Formats, JValue, JsonMethods, MappingException}
 import play.api.http._

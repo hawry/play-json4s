@@ -1,6 +1,6 @@
 package com.github.tototoshi.play2.json4s.testkit
 
-import akka.actor.ActorSystem
+import org.apache.pekko.actor.ActorSystem
 import org.scalatest._
 
 import scala.concurrent.Await

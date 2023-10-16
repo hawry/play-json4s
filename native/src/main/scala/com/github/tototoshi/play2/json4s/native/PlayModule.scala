@@ -18,7 +18,7 @@ package com.github.tototoshi.play2.json4s.native
 
 import javax.inject.Inject
 
-import akka.stream.Materializer
+import org.apache.pekko.stream.Materializer
 import com.github.tototoshi.play2.json4s.core._
 import org.json4s.native.Document
 import play.api.http.{HttpErrorHandler, ParserConfiguration}
